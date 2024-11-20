@@ -20,8 +20,8 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
-  background-size: cover;
+  background: #040404 url("../img/portfolio/pati3.jpg") center center no-repeat;
+  background-size: cover; /* Ensures the image fills the screen */
   left: 0;
   right: 0;
   top: 0;
@@ -155,7 +155,8 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  /* background: rgba(0, 0, 0, 0.9); */
+  background: #7393B3;
 }
 
 #header.header-top .social-links,
